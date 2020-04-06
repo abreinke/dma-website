@@ -1,0 +1,123 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+a {
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: black;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  color: black;
+}
+
+header{
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+.left-codelinks {
+  margin: 5%;
+  padding: 5px;
+  width: 800px;
+  height: auto;
+  float: top;
+  text-align: justify;
+  background-color: rgb(233, 236, 217);
+}
+
+.digital-collage {
+  margin: 10px;
+  padding: 10px;
+  width: 575px;
+  height: auto;
+  float: right;
+  text-align: justify;
+  background-color: rgb(233, 236, 217);
+}
+
+div.gallery {
+  margin: 10px;
+  padding: 10px;
+  width: 350px;
+  height: auto;
+}
+
+div.gallery img {
+  width: 350px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px;
+}
+
+div.gallery:hover {
+  border: 5px solid black;
+}
+
+.left-videowork {
+  margin: 10px;
+  padding: 10px;
+  width: 725px;
+  height: auto;
+  float: top;
+  background-color: rgb(233, 236, 217);
+}
+
+.left-videowork desc{
+  font-weight: normal;
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+div.artiststatement {
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  float: none;
+  background-color: white;
+}
