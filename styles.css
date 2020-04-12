@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: rgb(233, 236, 217);
 }
 
 h2 {
@@ -12,20 +12,12 @@ h2 {
   text-align: center;
 }
 
-a {
-  font-style: normal;
+h3 {
+  font-style: italic;
   font-weight: normal;
   font-family: sans-serif;
   font-size: 20px;
-  text-align: left;
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: black;
+  text-align: justify;
 }
 
 p {
@@ -46,78 +38,86 @@ header{
   text-align: center;
 }
 
-.left-codelinks {
-  margin: 5%;
-  padding: 5px;
-  width: 800px;
+ img {
+  width: auto;
   height: auto;
-  float: top;
-  text-align: justify;
-  background-color: rgb(233, 236, 217);
+  float: center;
 }
 
 .digital-collage {
+  float: top;
   margin: 10px;
-  padding: 10px;
-  width: 575px;
-  height: auto;
-  float: right;
-  text-align: justify;
-  background-color: rgb(233, 236, 217);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 1450px;
+  height: 650px;
+  background-color: white;
 }
 
 div.gallery {
+  float: left;
   margin: 10px;
-  padding: 10px;
-  width: 350px;
+  width: 200px;
   height: auto;
 }
 
 div.gallery img {
-  width: 350px;
+  width: 200px;
   height: auto;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
   font-weight: bold;
   font-style: normal;
   font-family: sans-serif;
-  font-size: 20px;
-}
-
-div.container {
+  font-size: 18px;
   text-align: center;
-  padding: 10px;
+  background-color: white;
 }
 
 div.gallery:hover {
   border: 5px solid black;
 }
 
-.left-videowork {
+.videowork {
+  float: right;
   margin: 10px;
-  padding: 10px;
-  width: 725px;
-  height: auto;
-  float: top;
-  background-color: rgb(233, 236, 217);
-}
-
-.left-videowork desc{
-  font-weight: normal;
-  font-style: normal;
-  font-family: sans-serif;
-  font-size: 18px;
-  text-align: left;
-}
-
-div.artiststatement {
-  margin: 20px;
-  padding: 20px;
-  width: 100%;
-  height: auto;
-  float: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 650px;
+  height: 1400px;
   background-color: white;
+}
+
+.left-codelinks {
+  float: right;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 660px;
+  height: 1200px;
+  text-align: justify;
+  background-color: white;
+}
+
+.left-codelinks a {
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.left-codelinks a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: black;
 }
