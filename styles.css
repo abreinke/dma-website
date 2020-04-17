@@ -14,10 +14,10 @@ h2 {
 
 h3 {
   font-style: italic;
-  font-weight: normal;
+  font-weight: bold;
   font-family: sans-serif;
   font-size: 20px;
-  text-align: justify;
+  text-align: inherit;
 }
 
 p {
